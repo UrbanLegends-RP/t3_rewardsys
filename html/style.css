@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+#menu {
+    display: none; /* Ensure menu is hidden initially */
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the background only for the menu */
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it appears on top */
+    text-align: center;
+}
+
+#menu-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#quest-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#quest-list li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
